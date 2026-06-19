@@ -1,56 +1,172 @@
-# Welcome to your Expo app 👋
+# 🏥 MedEase Frontend
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+MedEase is an AI-powered healthcare assistant designed to make healthcare more accessible for people in Tier-2 and Tier-3 cities. The application helps users understand symptoms, manage appointments, access health information, and receive AI-assisted guidance through a simple mobile-first experience.
 
-## Get started
+## ✨ Features
 
-1. Install dependencies
+### 🤖 AI Symptom Checker
 
-   ```bash
-   npm install
-   ```
+* Describe symptoms in natural language
+* Receive preliminary health insights
+* Get recommendations on whether medical attention may be needed
 
-2. Start the app
+### 📅 Appointment Booking
 
-   ```bash
-   npx expo start
-   ```
+* Browse available doctors
+* Schedule appointments
+* View upcoming consultations
 
-In the output, you'll find options to open the app in a
+### 💊 Prescription Understanding
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+* Upload or enter prescription details
+* Simplified explanations of medicines
+* Easy-to-understand medical guidance
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### 🏥 Health Dashboard
 
-## Get a fresh project
+* Personalized health overview
+* Appointment tracking
+* Medical history access
 
-When you're ready, run:
+### 📱 Mobile-First Experience
+
+* Clean and intuitive user interface
+* Optimized for Android and iOS devices
+* Fast and responsive navigation
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* React Native
+* Expo
+* Expo Router
+* TypeScript
+* React Navigation
+* React Native Safe Area Context
+
+### State Management
+
+* React Hooks
+* Context API
+
+### Backend Integration
+
+* REST APIs
+* AI-powered health services
+
+---
+
+## 📂 Project Structure
 
 ```bash
-npm run reset-project
+frontend/
+├── src/
+│   ├── app/
+│   │   ├── (tabs)/
+│   │   ├── appointment/
+│   │   ├── diagnosis/
+│   │   ├── profile/
+│   │   └── +not-found.tsx
+│   ├── components/
+│   ├── constants/
+│   ├── hooks/
+│   ├── services/
+│   └── assets/
+├── package.json
+└── README.md
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-### Other setup steps
+## 🚀 Getting Started
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+### Prerequisites
 
-## Learn more
+* Node.js (v18+ recommended)
+* npm or yarn
+* Expo CLI
+* Android Studio or Xcode
+* Expo Go App (optional)
 
-To learn more about developing your project with Expo, look at the following resources:
+### Installation
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Clone the repository:
 
-## Join the community
+```bash
+git clone https://github.com/SPIDEY777/MedEase.git
+```
 
-Join our community of developers creating universal apps.
+Navigate to frontend:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```bash
+cd MedEase/frontend
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start development server:
+
+```bash
+npx expo start
+```
+
+Run on Android:
+
+```bash
+a
+```
+
+Run on iOS:
+
+```bash
+i
+```
+
+---
+
+## 📸 Screens
+
+* Home Dashboard
+* AI Diagnosis Screen
+* Appointment Booking
+* Health Records
+* User Profile
+
+---
+
+## 🎯 Problem Statement
+
+Millions of people in smaller cities struggle with:
+
+* Limited access to healthcare professionals
+* Difficulty understanding prescriptions
+* Long waiting times for consultations
+* Lack of basic health awareness
+
+MedEase bridges this gap using AI-powered healthcare assistance and simplified medical guidance.
+
+---
+
+## 🔮 Future Enhancements
+
+* AI-powered voice assistant
+* Regional language support
+* Medicine reminders
+* Health report analysis
+* Telemedicine integration
+* Emergency services support
+
+---
+
+## 👨‍💻 Team
+
+Built with ❤️ during a Hackathon by the MedEase Team.
+
+---
